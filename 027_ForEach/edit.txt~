@@ -1,0 +1,11 @@
+// Throw at top of file
+import pkg.*;
+
+// Throw below main
+public static void populateDog(Dog[][] arr){
+	for(int i = 0; i < arr.length; i++){
+		for(int j = 0; j < arr[0].length; j++){
+			arr = new Dog();
+		}
+	}
+}
